@@ -1,8 +1,3 @@
-x = input("enter number")
-y = len(x)
-i = 0
-result = 0
-while(i<y):
-    result = result + int(x[i])
-    i = i+1
-    print(result)
+According to Sallery we will predict who buys the car or not.
+Here we apply logistic regression algorithm, because the data is categorical.
+Then after predict the accuracy of testing data.
